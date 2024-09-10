@@ -49,3 +49,7 @@ with open("Test.txt", "w") as file2:
 pfad = "C:\\Users\\lk3\\source\\repos\\Python_Grundkurs_2024_09_09\\venv\\Scripts\\python.exe"
 pfadR = r"C:\Users\lk3\source\repos\Python_Grundkurs_2024_09_09\venv\Scripts\python.exe"
 print(pfad, pfadR)
+
+# Prüfen ob ein File existiert
+import os.path as p
+p.exists("Test.txt")
