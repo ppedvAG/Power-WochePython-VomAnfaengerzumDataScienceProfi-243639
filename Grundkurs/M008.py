@@ -79,8 +79,5 @@ if __name__ == "__main__":
 # Packages
 # Ordner, welche eine bessere Strukturierung des Projekts ermöglichen
 
-import M008c.M008_1
-from M008c import M008_2
-
 # __init__.py
 # Wenn ein Ordner angegriffen wird, wird dieses Skript ausgeführt
